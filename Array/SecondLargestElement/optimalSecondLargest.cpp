@@ -10,6 +10,26 @@
 using namespace std;
 
 int secondLargestEle(int arr[], int n){
-    
+    int large=INT_MIN, secondLargest=INT_MIN;
+    for(int i=0; i<n; i++){
+        if(arr[i] > large){
+            secondLargest=large;
+            large=arr[i];
+        }
+        else if(arr[i]>secondLargest && arr[i] != large)
+        secondLargest=arr[i];
+    }
+    return secondLargest;
 }
 
+int main(){
+    int n;
+    cin>>n; 
+
+    int arr1[n];
+    for(int i=0; i<n; i++){
+        cin>>arr1[i];
+    }
+    cout<<"The second largest element is "<<secondLargestEle(arr1,n)<<endl;
+    
+}
