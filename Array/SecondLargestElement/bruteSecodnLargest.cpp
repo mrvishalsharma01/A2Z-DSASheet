@@ -10,3 +10,24 @@
 // Time Complexity:- O(n*log n)
 // Space Complexity:- O(n)
 
+#include <bits/stdc++.h>
+using namespace std;
+
+int secondLargest(vector<int> arr, int n){
+    sort(arr.begin(),arr.end());
+    return arr[n-2];
+}
+
+int main(){
+
+    int n;
+    cin>>n;
+
+    vector<int>arr1(n);
+    for(int i=0; i<n; i++){
+        cin>>arr1[i];
+    }
+    
+    cout<<"The second Largest element in an array is "<<secondLargest(arr1,n);
+
+}
