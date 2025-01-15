@@ -5,7 +5,7 @@
 // put every element of the set in the array from the starting of array  
 // now return k
 
-//Time Complexity:- O(n*log n) + O(n)
+//Time Complexity:- O(n*log(n)) + O(n)
 //Space Complexity:-  O(n)
 
 #include <bits/stdc++.h>

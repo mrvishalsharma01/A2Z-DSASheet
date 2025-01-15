@@ -3,6 +3,9 @@
 // till we don't get a number arr[j] which is different from arr[i] 
 // as we will get the unique number we will increase the i pointer and update its value by arr[j]
 
+//Time Complexity:- O(n)
+//Space Complexity:-  O(1)
+
 #include <bits/stdc++.h>
 using namespace std;
 
