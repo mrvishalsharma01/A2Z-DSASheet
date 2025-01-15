@@ -3,6 +3,9 @@
 // we can make a new array and assing the value form previous array to that with 
 // till n-1 and we will store that in temp variable in last
 
+//Time Complexity:- O(n)
+//Space Complexity:-  O(n)
+
 #include <bits/stdc++.h>
 using namespace std;
 
