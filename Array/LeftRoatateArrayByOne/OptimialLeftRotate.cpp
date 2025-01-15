@@ -2,6 +2,9 @@
 //To optimise the code what we can do here is we and assing the first element in temp variable 
 // and print the value at time time of printing
 
+//Time Complexity:- O(n)
+//Space Complexity:-  O(1)
+
 #include <bits/stdc++.h>
 using namespace std;
 
