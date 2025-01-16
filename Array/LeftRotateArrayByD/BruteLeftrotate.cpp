@@ -4,6 +4,9 @@
 // Now here shift is happening i-d place i.e a[i-d]=ar[i]
 // Put back temp array from n-k
 
+//Time Complexity:- O(n)
+//Space Complexity:-  O(d)
+
 #include <bits/stdc++.h>
 using namespace std;
 

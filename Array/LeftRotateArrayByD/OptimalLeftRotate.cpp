@@ -3,6 +3,9 @@
 //reverse the array a+d to a+n
 //reverse the whole array a, a+n
 
+//Time Complexity:- O(n)
+//Space Complexity:-  O(1)
+
 #include <bits/stdc++.h>
 using namespace std;
 
