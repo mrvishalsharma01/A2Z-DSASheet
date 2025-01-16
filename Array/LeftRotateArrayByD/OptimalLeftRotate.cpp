@@ -7,9 +7,9 @@
 using namespace std;
 
 void leftRotate(int arr[], int n, int d){
-    reverse(arr,arr+d);
-    reverse(arr+d, arr+n);
-    reverse (arr, arr+n);
+    reverse(arr,arr+d);// reverse the first part i.e 0 to d
+    reverse(arr+d, arr+n);// reverse the second part i.e d to n-1
+    reverse (arr, arr+n); // reveres the whole array 
 }
 
 int main(){
