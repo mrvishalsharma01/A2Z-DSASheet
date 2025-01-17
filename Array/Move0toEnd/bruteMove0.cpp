@@ -1,7 +1,8 @@
 // Brute force approach
 //we will make a temp array and push the item 
 
-
+//Time Complexity:- O(n)
+//Space Complexity:- O(n) 
 #include <bits/stdc++.h>
 using namespace std;
 

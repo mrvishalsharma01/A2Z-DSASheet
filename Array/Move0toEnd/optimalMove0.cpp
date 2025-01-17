@@ -1,5 +1,7 @@
 //The optimal approach to solve this problme is to use two pointer 
 
+//Time Complexity:- O(n)
+//Space Complexity:- O(1) 
 #include <bits/stdc++.h>
 using namespace std;
 
