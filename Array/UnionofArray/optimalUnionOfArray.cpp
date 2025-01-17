@@ -2,7 +2,8 @@
 //We can use two pointer approach
 
 
-
+//Time Complexity:- O(n)
+//Space Complexity:- O(n) 
 
 #include <bits/stdc++.h>
 

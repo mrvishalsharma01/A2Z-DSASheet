@@ -2,6 +2,10 @@
 //Take a set data structure and go across the array and insert in a2 array 
 //now declare the union size
 
+
+//Time Complexity:- O(n)
+//Space Complexity:- O(n) 
+
 #include <bits/stdc++.h>
 using namespace std;
 
