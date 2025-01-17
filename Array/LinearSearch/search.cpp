@@ -1,5 +1,9 @@
 //search the element in array
 
+//Time Complexity :- O(n)
+//Space complexity:- O(1)
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
