@@ -7,6 +7,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//Time Complexity:- O(n)
+//space Complexity:- O(1)
+
 int largestElement(int arr[], int n){
     int max=arr[0];
     for(int i=0; i<n; i++){
